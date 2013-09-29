@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58F5BB7417F7DA9300936C4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F5BB7317F7DA9300936C4E /* Foundation.framework */; };
+		58F5BB7617F7DA9300936C4E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F5BB7517F7DA9300936C4E /* CoreGraphics.framework */; };
+		58F5BB7817F7DA9300936C4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F5BB7717F7DA9300936C4E /* UIKit.framework */; };
+		58F5BB7E17F7DA9300936C4E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58F5BB7C17F7DA9300936C4E /* InfoPlist.strings */; };
+		58F5BB8017F7DA9300936C4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F5BB7F17F7DA9300936C4E /* main.m */; };
+		58F5BB8417F7DA9300936C4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F5BB8317F7DA9300936C4E /* AppDelegate.m */; };
+		58F5BB8617F7DA9300936C4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58F5BB8517F7DA9300936C4E /* Images.xcassets */; };
+		58F5BB8D17F7DA9300936C4E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F5BB8C17F7DA9300936C4E /* XCTest.framework */; };
+		58F5BB8E17F7DA9300936C4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F5BB7317F7DA9300936C4E /* Foundation.framework */; };
+		58F5BB8F17F7DA9300936C4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F5BB7717F7DA9300936C4E /* UIKit.framework */; };
+		58F5BB9717F7DA9300936C4E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58F5BB9517F7DA9300936C4E /* InfoPlist.strings */; };
+		58F5BB9917F7DA9300936C4E /* TorchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F5BB9817F7DA9300936C4E /* TorchTests.m */; };
+		58F5BBA517F7DAC000936C4E /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F5BBA417F7DAC000936C4E /* BaseViewController.m */; };
+		58F5BBA817F7DACD00936C4E /* TorchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F5BBA717F7DACD00936C4E /* TorchViewController.m */; };
+		58F5BBAA17F7DB3200936C4E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F5BBA917F7DB3200936C4E /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58F5BB9017F7DA9300936C4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58F5BB6817F7DA9300936C4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58F5BB6F17F7DA9300936C4E;
+			remoteInfo = Torch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58F5BB7017F7DA9300936C4E /* Torch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Torch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58F5BB7317F7DA9300936C4E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		58F5BB7517F7DA9300936C4E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		58F5BB7717F7DA9300936C4E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		58F5BB7B17F7DA9300936C4E /* Torch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Torch-Info.plist"; sourceTree = "<group>"; };
+		58F5BB7D17F7DA9300936C4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		58F5BB7F17F7DA9300936C4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58F5BB8117F7DA9300936C4E /* Torch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Torch-Prefix.pch"; sourceTree = "<group>"; };
+		58F5BB8217F7DA9300936C4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		58F5BB8317F7DA9300936C4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		58F5BB8517F7DA9300936C4E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		58F5BB8B17F7DA9300936C4E /* TorchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TorchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58F5BB8C17F7DA9300936C4E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		58F5BB9417F7DA9300936C4E /* TorchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TorchTests-Info.plist"; sourceTree = "<group>"; };
+		58F5BB9617F7DA9300936C4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		58F5BB9817F7DA9300936C4E /* TorchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TorchTests.m; sourceTree = "<group>"; };
+		58F5BBA317F7DAC000936C4E /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		58F5BBA417F7DAC000936C4E /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		58F5BBA617F7DACD00936C4E /* TorchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorchViewController.h; sourceTree = "<group>"; };
+		58F5BBA717F7DACD00936C4E /* TorchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorchViewController.m; sourceTree = "<group>"; };
+		58F5BBA917F7DB3200936C4E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58F5BB6D17F7DA9300936C4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F5BBAA17F7DB3200936C4E /* AVFoundation.framework in Frameworks */,
+				58F5BB7617F7DA9300936C4E /* CoreGraphics.framework in Frameworks */,
+				58F5BB7817F7DA9300936C4E /* UIKit.framework in Frameworks */,
+				58F5BB7417F7DA9300936C4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58F5BB8817F7DA9300936C4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F5BB8D17F7DA9300936C4E /* XCTest.framework in Frameworks */,
+				58F5BB8F17F7DA9300936C4E /* UIKit.framework in Frameworks */,
+				58F5BB8E17F7DA9300936C4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58F5BB6717F7DA9300936C4E = {
+			isa = PBXGroup;
+			children = (
+				58F5BB7917F7DA9300936C4E /* Torch */,
+				58F5BB9217F7DA9300936C4E /* TorchTests */,
+				58F5BB7217F7DA9300936C4E /* Frameworks */,
+				58F5BB7117F7DA9300936C4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58F5BB7117F7DA9300936C4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58F5BB7017F7DA9300936C4E /* Torch.app */,
+				58F5BB8B17F7DA9300936C4E /* TorchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58F5BB7217F7DA9300936C4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58F5BBA917F7DB3200936C4E /* AVFoundation.framework */,
+				58F5BB7317F7DA9300936C4E /* Foundation.framework */,
+				58F5BB7517F7DA9300936C4E /* CoreGraphics.framework */,
+				58F5BB7717F7DA9300936C4E /* UIKit.framework */,
+				58F5BB8C17F7DA9300936C4E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58F5BB7917F7DA9300936C4E /* Torch */ = {
+			isa = PBXGroup;
+			children = (
+				58F5BBA217F7DAB500936C4E /* Controllers */,
+				58F5BB8217F7DA9300936C4E /* AppDelegate.h */,
+				58F5BB8317F7DA9300936C4E /* AppDelegate.m */,
+				58F5BB8517F7DA9300936C4E /* Images.xcassets */,
+				58F5BB7A17F7DA9300936C4E /* Supporting Files */,
+			);
+			path = Torch;
+			sourceTree = "<group>";
+		};
+		58F5BB7A17F7DA9300936C4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58F5BB7B17F7DA9300936C4E /* Torch-Info.plist */,
+				58F5BB7C17F7DA9300936C4E /* InfoPlist.strings */,
+				58F5BB7F17F7DA9300936C4E /* main.m */,
+				58F5BB8117F7DA9300936C4E /* Torch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58F5BB9217F7DA9300936C4E /* TorchTests */ = {
+			isa = PBXGroup;
+			children = (
+				58F5BB9817F7DA9300936C4E /* TorchTests.m */,
+				58F5BB9317F7DA9300936C4E /* Supporting Files */,
+			);
+			path = TorchTests;
+			sourceTree = "<group>";
+		};
+		58F5BB9317F7DA9300936C4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58F5BB9417F7DA9300936C4E /* TorchTests-Info.plist */,
+				58F5BB9517F7DA9300936C4E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58F5BBA217F7DAB500936C4E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				58F5BBA317F7DAC000936C4E /* BaseViewController.h */,
+				58F5BBA417F7DAC000936C4E /* BaseViewController.m */,
+				58F5BBA617F7DACD00936C4E /* TorchViewController.h */,
+				58F5BBA717F7DACD00936C4E /* TorchViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58F5BB6F17F7DA9300936C4E /* Torch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58F5BB9C17F7DA9300936C4E /* Build configuration list for PBXNativeTarget "Torch" */;
+			buildPhases = (
+				58F5BB6C17F7DA9300936C4E /* Sources */,
+				58F5BB6D17F7DA9300936C4E /* Frameworks */,
+				58F5BB6E17F7DA9300936C4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Torch;
+			productName = Torch;
+			productReference = 58F5BB7017F7DA9300936C4E /* Torch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58F5BB8A17F7DA9300936C4E /* TorchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58F5BB9F17F7DA9300936C4E /* Build configuration list for PBXNativeTarget "TorchTests" */;
+			buildPhases = (
+				58F5BB8717F7DA9300936C4E /* Sources */,
+				58F5BB8817F7DA9300936C4E /* Frameworks */,
+				58F5BB8917F7DA9300936C4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58F5BB9117F7DA9300936C4E /* PBXTargetDependency */,
+			);
+			name = TorchTests;
+			productName = TorchTests;
+			productReference = 58F5BB8B17F7DA9300936C4E /* TorchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58F5BB6817F7DA9300936C4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = brant;
+				TargetAttributes = {
+					58F5BB8A17F7DA9300936C4E = {
+						TestTargetID = 58F5BB6F17F7DA9300936C4E;
+					};
+				};
+			};
+			buildConfigurationList = 58F5BB6B17F7DA9300936C4E /* Build configuration list for PBXProject "Torch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 58F5BB6717F7DA9300936C4E;
+			productRefGroup = 58F5BB7117F7DA9300936C4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58F5BB6F17F7DA9300936C4E /* Torch */,
+				58F5BB8A17F7DA9300936C4E /* TorchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58F5BB6E17F7DA9300936C4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F5BB7E17F7DA9300936C4E /* InfoPlist.strings in Resources */,
+				58F5BB8617F7DA9300936C4E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58F5BB8917F7DA9300936C4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F5BB9717F7DA9300936C4E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58F5BB6C17F7DA9300936C4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F5BB8417F7DA9300936C4E /* AppDelegate.m in Sources */,
+				58F5BBA517F7DAC000936C4E /* BaseViewController.m in Sources */,
+				58F5BB8017F7DA9300936C4E /* main.m in Sources */,
+				58F5BBA817F7DACD00936C4E /* TorchViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58F5BB8717F7DA9300936C4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F5BB9917F7DA9300936C4E /* TorchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58F5BB9117F7DA9300936C4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58F5BB6F17F7DA9300936C4E /* Torch */;
+			targetProxy = 58F5BB9017F7DA9300936C4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58F5BB7C17F7DA9300936C4E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58F5BB7D17F7DA9300936C4E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		58F5BB9517F7DA9300936C4E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58F5BB9617F7DA9300936C4E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58F5BB9A17F7DA9300936C4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58F5BB9B17F7DA9300936C4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58F5BB9D17F7DA9300936C4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Torch/Torch-Prefix.pch";
+				INFOPLIST_FILE = "Torch/Torch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		58F5BB9E17F7DA9300936C4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Torch/Torch-Prefix.pch";
+				INFOPLIST_FILE = "Torch/Torch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		58F5BBA017F7DA9300936C4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Torch.app/Torch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Torch/Torch-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TorchTests/TorchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		58F5BBA117F7DA9300936C4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Torch.app/Torch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Torch/Torch-Prefix.pch";
+				INFOPLIST_FILE = "TorchTests/TorchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58F5BB6B17F7DA9300936C4E /* Build configuration list for PBXProject "Torch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58F5BB9A17F7DA9300936C4E /* Debug */,
+				58F5BB9B17F7DA9300936C4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58F5BB9C17F7DA9300936C4E /* Build configuration list for PBXNativeTarget "Torch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58F5BB9D17F7DA9300936C4E /* Debug */,
+				58F5BB9E17F7DA9300936C4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		58F5BB9F17F7DA9300936C4E /* Build configuration list for PBXNativeTarget "TorchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58F5BBA017F7DA9300936C4E /* Debug */,
+				58F5BBA117F7DA9300936C4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58F5BB6817F7DA9300936C4E /* Project object */;
+}
